@@ -16,7 +16,7 @@
   `sudo apt-get install -y mongodb-org`
 3. make a new folder at your root folder called "data", i.e. mkdir data
 4. run the following commands
-  `echo 'mongod --bind_ip=$IP --dbpath=data --nojournal --rest "$@"' > mongod`
+  `echo 'mongod --bind_ip=$IP --dbpath=data --nojournal --rest "$@"' > mongod` and
   `chmod a+x mongod`
 5. mongod can be run using `./monogd` and closed using `ctrl + C`
 6. you should see the line "[initandlisten] waiting for connections on port 27017" if installation is successful
@@ -29,7 +29,7 @@
 ### Install necessary dependencies
 1. change into `[your username]:~/workspace/todos-api`, that is `cd todos-api`
 2. run the following command
-  `npm install --save express mongoose@4.10.8 body-parser`
+  `npm install --save express mongoose@4.10.8 body-parser` and
   `npm install --save-dev nodemon`
 
 ### Install Postman
