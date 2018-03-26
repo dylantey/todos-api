@@ -291,3 +291,10 @@
   - the JSON is essentially the provided JSON file
  
  ## Shortcomings
+  - the JSON file contains `_id` and `__v` identifiers
+  - the JSON is queried using `_id` instead of `days`, `deliveryId` and/or other unique identifiers
+  - deleting an `_id` would delete the whole dropoff object instead of invididual subdocuments
+ 
+ ## Comment
+  - I had to teach myself the whole REST api theory and implementation
+  - This is the product of my work that I spent half a day learning and tweaking 
