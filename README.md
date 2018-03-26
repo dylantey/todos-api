@@ -5,12 +5,12 @@
 - NodeJS
 
 ## Setup
-### c9
+### Setup up Cloud9 IDE
 1. Sign up for a free account at c9.io
 2. Create a new workspace
 3. name the workspace "my-rest-api" and choose the "blank" template
 
-### setup mongodb
+### Setup MongoDB
 1. open a terminal (right click, open terminal here) at your root folder, i.e. "my-rest-api"
 2. install MongoDB using the command
   - sudo apt-get install -y mongodb-org
@@ -21,7 +21,7 @@
 5. mongod can be run using ./monogd and closed using "ctrl + C"
 6. you should see the line "[initandlisten] waiting for connections on port 27017" if installation is successful
 
-### clone repository
+### Clone repository
 1. open a new terminal at the root folder
 2. run this command to clone the directory
   - git clone https://github.com/dylantey/todos-api
@@ -43,7 +43,7 @@
   - npm start
 4. using postman, go to https://my-rest-api-[your username].c9users.io/tasks
 
-### Using the program
+## Using the program
 1. using GET, navigate to https://my-rest-api-[your username].c9users.io/tasks , you would see [] as there's nothing in the database
 2. using POST, navigate to https://my-rest-api-[your username].c9users.io/tasks
   - choose Body->raw->JSON (instead of text) and paste the following
