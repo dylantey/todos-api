@@ -47,7 +47,7 @@
 1. using GET, navigate to https://my-rest-api-[your username].c9users.io/tasks , you would see [] as there's nothing in the database
 2. using POST, navigate to https://my-rest-api-[your username].c9users.io/tasks
   - choose Body->raw->JSON (instead of text) and paste the following
-  - {
+  `{
   "dropoffs": [
     {
       "day": "Monday",
@@ -287,4 +287,4 @@
         "deliveries": []
     }
   ]
-}
+}`
