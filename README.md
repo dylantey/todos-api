@@ -27,7 +27,7 @@
   `git clone https://github.com/dylantey/todos-api`
 
 ### Install necessary dependencies
-1. change into `[your username]:~/workspace/todos-api, cd todos-api`
+1. change into `[your username]:~/workspace/todos-api`, that is `cd todos-api`
 2. run the following command
   `npm install --save express mongoose@4.10.8 body-parser`
   `npm install --save-dev nodemon`
