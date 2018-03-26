@@ -13,34 +13,34 @@
 ### Setup MongoDB
 1. open a terminal (right click, open terminal here) at your root folder, i.e. "my-rest-api"
 2. install MongoDB using the command
-  - sudo apt-get install -y mongodb-org
+  `sudo apt-get install -y mongodb-org`
 3. make a new folder at your root folder called "data", i.e. mkdir data
 4. run the following commands
-  - echo 'mongod --bind_ip=$IP --dbpath=data --nojournal --rest "$@"' > mongod
-  - chmod a+x mongod
-5. mongod can be run using ./monogd and closed using "ctrl + C"
+  `echo 'mongod --bind_ip=$IP --dbpath=data --nojournal --rest "$@"' > mongod`
+  `chmod a+x mongod`
+5. mongod can be run using `./monogd` and closed using `ctrl + C`
 6. you should see the line "[initandlisten] waiting for connections on port 27017" if installation is successful
 
 ### Clone repository
 1. open a new terminal at the root folder
 2. run this command to clone the directory
-  - git clone https://github.com/dylantey/todos-api
+  `git clone https://github.com/dylantey/todos-api`
 
 ### Install necessary dependencies
 1. change into [your username]:~/workspace/todos-api, cd todos-api
 2. run the following command
-  - npm install --save express mongoose@4.10.8 body-parser
-  - npm install --save-dev nodemon
+  `npm install --save express mongoose@4.10.8 body-parser`
+  `npm install --save-dev nodemon`
 
 ### Install Postman
 1. install postman on your computer at https://www.getpostman.com/apps
   
 ## Run the program
 1. open a terminal at root node and run 
-  - ./mongod
+  `./mongod`
 2. open a new terminal and cd into [your username]:~/workspace/todos-api
 3. run 
-  - npm start
+  `npm start`
 4. using postman, go to https://my-rest-api-[your username].c9users.io/tasks
 
 ## Using the program
