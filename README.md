@@ -295,6 +295,8 @@
   - the JSON file contains `_id` and `__v` identifiers
   - the JSON is queried using `_id` instead of `days`, `deliveryId` and/or other unique identifiers
   - deleting an `_id` would delete the whole dropoff object instead of invididual subdocuments
+  - implementation of CRUD operations can be cleaner
+  - should implement the ability to add individual deliveries (lack of knowledge and time to figure out) 
  
  ## Comment
   - I had to teach myself the whole REST api theory and implementation
