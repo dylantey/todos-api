@@ -27,7 +27,7 @@
   `git clone https://github.com/dylantey/todos-api`
 
 ### Install necessary dependencies
-1. change into [your username]:~/workspace/todos-api, cd todos-api
+1. change into `[your username]:~/workspace/todos-api, cd todos-api`
 2. run the following command
   `npm install --save express mongoose@4.10.8 body-parser`
   `npm install --save-dev nodemon`
@@ -38,14 +38,14 @@
 ## Run the program
 1. open a terminal at root node and run 
   `./mongod`
-2. open a new terminal and cd into [your username]:~/workspace/todos-api
+2. open a new terminal and cd into `[your username]:~/workspace/todos-api`
 3. run 
   `npm start`
-4. using postman, go to https://my-rest-api-[your username].c9users.io/tasks
+4. using postman, go to `https://my-rest-api-[your username].c9users.io/tasks`
 
 ## Using the program
-1. using GET, navigate to https://my-rest-api-[your username].c9users.io/tasks , you would see [] as there's nothing in the database
-2. using POST, navigate to https://my-rest-api-[your username].c9users.io/tasks
+1. using GET, navigate to `https://my-rest-api-[your username].c9users.io/tasks` , you would see [] as there's nothing in the database
+2. using POST, navigate to `https://my-rest-api-[your username].c9users.io/tasks`
   - choose Body->raw->JSON (instead of text) and paste the following
   ```{
   "dropoffs": [
